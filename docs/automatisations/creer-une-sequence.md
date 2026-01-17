@@ -6,7 +6,7 @@ title: Créer une séquence de prospection
 # Créer une séquence de prospection
 
 :::info
-La création d'une séquence de prospection nécessite une liste de contacts prête avec au moins un contact à exploiter. Si tu n'as pas encore de liste de contacts prête, tu peux le faire [ici](/docs/liste-de-contacts/introduction).
+La création d'une séquence de prospection nécessite une liste de contacts prête avec au moins un contact à exploiter. Si tu n'as pas encore de liste de contacts prête, tu peux le faire [ici](../liste-de-contacts/introduction).
 :::
 
 Une séquence de prospection est une suite d'actions automatisées qui imite au maximum le comportement humain pour contacter à grande échelle un grand nombre de personnes afin de parler de tes services à l'aide de l'automatisation.
