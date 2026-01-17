@@ -9,11 +9,15 @@ title: Configurer ton ciblage
 
 1. Dans le menu principal, va sur **Paramètres > Filtres avancés**.
 
+![Accéder aux filtres avancés](/img/pour-commencer/ciblage-step1.png)
+
 2. Tu as le choix de cocher les cases suivantes :
    - Exclure les profils sans description
    - Exclure les profils sans titre
    - Exclure les profils sans photo de profil
    - Exclure les profils qui n'ont pas publié depuis 30 jours
+
+![Options d'exclusion](/img/pour-commencer/ciblage-step2.png)
 
 3. Clique sur **Enregistrer** pour appliquer ces filtres.
 
@@ -33,6 +37,8 @@ Si tu remplis les deux champs ci-dessus, ce sont les mots-clés du poste à cons
 
 4. **Pays** : sélectionne un ou plusieurs pays à exclure.
 
+![Filtres par mots-clés et pays](/img/pour-commencer/ciblage-step3.png)
+
 5. Clique sur **Enregistrer** pour appliquer ces filtres.
 
 ## Application des filtres
@@ -48,3 +54,5 @@ Tu peux si tu le souhaites les faire appliquer sur les séquences de prospection
 ## Suivi des profils filtrés
 
 Pour suivre les profils filtrés, tu peux le faire toujours dans **Paramètres > Filtres avancés**, tu as un aperçu de toutes les personnes filtrées, la source et la raison du filtrage.
+
+![Suivi des profils filtrés](/img/pour-commencer/ciblage-step4.png)

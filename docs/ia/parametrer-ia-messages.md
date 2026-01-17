@@ -11,4 +11,6 @@ title: Paramétrer l'IA des premiers messages
 
 3. Renseigne chacun des paramètres afin de guider encore plus Yadulink dans le pitch de ton offre
 
+![Paramétrage de l'IA](/img/ia/parametrer-step1.png)
+
 Une fois que c'est prêt, on peut passer à l'étape suivante.

@@ -62,7 +62,7 @@ const config = {
       image: 'img/yadulink-social-card.png',
 
       navbar: {
-        title: 'Yadulink',
+        title: '',
         logo: {
           alt: 'Yadulink Logo',
           src: 'img/logo.webp',

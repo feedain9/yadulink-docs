@@ -17,6 +17,8 @@ Pour envoyer un lead magnet à une liste de personnes sur LinkedIn, nous partiro
    - Demande de connexion (si tu n'es pas connecté avec tous les contacts de la liste)
    - Message (qui contiendra le contenu de ton lead magnet)
 
+![Configuration de la séquence](/img/cas-dusage/leadmagnet-step1.png)
+
 3. C'est tout, tu peux laisser Yadulink envoyer ton lead magnet aux personnes qui ont liké et commenté !
 
 :::tip

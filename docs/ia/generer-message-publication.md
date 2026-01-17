@@ -17,6 +17,8 @@ Cette fonctionnalité nécessite l'extension Yadulink.
 
 3. Ouvre l'extension Yadulink et rends-toi dans l'onglet **Messages**
 
+![Extension Yadulink sur une publication](/img/ia/message-publication-step1.png)
+
 4. Choisis le type de premier message à générer :
    - Engager une conversation ?
    - Parler de mon offre ?
@@ -24,3 +26,5 @@ Cette fonctionnalité nécessite l'extension Yadulink.
 5. Une fois choisi, clique sur **Générer le message**
 
 6. Yadulink te propose un premier message, que tu peux modifier, re-générer ou envoyer en un clic
+
+![Message généré](/img/ia/message-publication-step2.png)

@@ -13,6 +13,8 @@ Définir tes plages d'activité permet à Yadulink de n'exécuter tes automatisa
 
 2. Dans la section **Paramétrage des horaires d'activité**, choisis les jours (lundi-vendredi par défaut), les plages horaires quotidiennes, ton fuseau horaire et le nombre d'actions quotidiennes/hebdomadaires à effectuer.
 
+![Configuration des horaires d'activité](/img/pour-commencer/horaires-step1.png)
+
 ### Options disponibles
 
 - **Demandes de connexions hebdomadaires** : Nombre maximum de demandes de connexion par semaine (ex: 200)

@@ -25,7 +25,8 @@
   "devDependencies": {
     "@docusaurus/module-type-aliases": "^3.7.0",
     "@docusaurus/types": "^3.7.0",
-    "@easyops-cn/docusaurus-search-local": "^0.44.5"
+    "@easyops-cn/docusaurus-search-local": "^0.44.5",
+    "puppeteer": "^24.35.0"
   },
   "browserslist": {
     "production": [

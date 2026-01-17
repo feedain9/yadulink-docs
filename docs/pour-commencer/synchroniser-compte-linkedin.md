@@ -23,21 +23,29 @@ Sans cette connexion, Yadulink ne peut pas exécuter les actions automatisées n
 - Dans le menu principal, va dans **Paramètres > Système**.
 - Clique sur l'onglet **Synchroniser**
 
+![Paramètres de synchronisation](/img/pour-commencer/sync-step1.png)
+
 ### 2. Connecte ton compte LinkedIn
 
 - Clique sur le bouton **Sign in to LinkedIn**
 - Entre tes identifiants LinkedIn (Email et Password)
 - Clique sur **Login**
 
+![Connexion LinkedIn](/img/pour-commencer/sync-step2.png)
+
 ### 3. Confirmation de la connexion
 
 - Une fois la connexion validée, tu es redirigé sur Yadulink.
 - Le statut a changé en : **"Synchronisé"**
+
+![Confirmation de synchronisation](/img/pour-commencer/sync-step3.png)
 
 ### 4. Vérifier l'état de l'extension Chrome
 
 - Assure-toi que l'extension Yadulink est installée et à jour (Chrome > Extensions > Yadulink).
 - Dans **Paramètres > Système**, l'état doit indiquer **"À jour"**.
 - Si nécessaire, fais un « hard refresh » (Ctrl+Maj+R) ou réinstalle l'extension.
+
+![État de l'extension](/img/pour-commencer/sync-step4.png)
 
 Une fois ces étapes réalisées, ton compte LinkedIn est parfaitement intégré à Yadulink et tu peux passer à la configuration de ton ciblage.

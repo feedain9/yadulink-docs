@@ -17,11 +17,15 @@ Dû à des contraintes techniques liées à LinkedIn, tu ne peux pas ajouter un 
 
 2. Ouvre l'extension Yadulink, et rends-toi dans l'onglet **Fils d'actus**
 
+![Extension Yadulink - Fils d'actus](/img/fils-dactus/creer-step1.png)
+
 3. Crée un fil d'actu en lui donnant un nom
 
 4. Coche ce nouveau fil d'actu créé
 
 5. Clique sur **Ajouter le contact**
+
+![Ajouter un contact au fil d'actu](/img/fils-dactus/creer-step2.png)
 
 ## Consulter ton fil d'actu
 

@@ -22,3 +22,5 @@ Cette fonctionnalité nécessite l'extension Yadulink.
 5. Yadulink te copie ton template en prenant soin d'adapter le message au contact avec son prénom (si tu as utilisé la variable `{{first_name}}`)
 
 6. Une fois que le message est prêt, tu peux l'envoyer
+
+![Utilisation d'un template](/img/ia/utiliser-template-step1.png)

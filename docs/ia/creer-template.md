@@ -12,3 +12,5 @@ title: Créer un template de message
 3. Rédige ton template en utilisant la variable `{{first_name}}`, l'IA s'occupera de la remplir pour toi lors de l'utilisation
 
 4. Une fois terminé, clique sur **Enregistrer**
+
+![Création d'un template](/img/ia/creer-template-step1.png)
