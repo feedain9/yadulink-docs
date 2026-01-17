@@ -25,14 +25,14 @@ Yadulink est une plateforme complète pour automatiser et optimiser votre prospe
 
 ### 🎯 Nouveau sur Yadulink ?
 
-Consultez notre [guide de démarrage rapide](/demarrage-rapide) pour configurer votre compte en quelques minutes.
+Consultez notre [guide de démarrage](/pour-commencer/presentation-de-yadulink) pour configurer votre compte en quelques minutes.
 
 </div>
 <div className="col col--6">
 
 ### 🔧 Déjà utilisateur ?
 
-Explorez les guides avancés sur les [automatisations](/automatisations/introduction-aux-automatisations) et l'[IA](/ia/comment-generer-un-commentaire).
+Explorez les guides avancés sur les [automatisations](/automatisations/introduction) et l'[IA](/ia/introduction).
 
 </div>
 </div>
@@ -41,10 +41,10 @@ Explorez les guides avancés sur les [automatisations](/automatisations/introduc
 
 | Guide | Description |
 |-------|-------------|
-| [Créer une automatisation](/automatisations/creer-une-automatisation) | Lancez votre première campagne de prospection |
-| [Générer des commentaires IA](/ia/comment-generer-un-commentaire) | Utilisez l'IA pour engager avec votre réseau |
-| [Importer des leads](/listes/importer-des-leads) | Ajoutez vos prospects depuis Sales Navigator |
-| [Connecter LinkedIn](/parametres/connecter-linkedin) | Liez votre compte LinkedIn à Yadulink |
+| [Créer une automatisation](/automatisations/creer-une-sequence) | Lancez votre première campagne de prospection |
+| [Générer des commentaires IA](/ia/generer-commentaire) | Utilisez l'IA pour engager avec votre réseau |
+| [Importer des leads](/liste-de-contacts/depuis-un-fichier) | Ajoutez vos prospects depuis Sales Navigator |
+| [Connecter LinkedIn](/pour-commencer/synchroniser-compte-linkedin) | Liez votre compte LinkedIn à Yadulink |
 
 ## Besoin d'aide ?
 

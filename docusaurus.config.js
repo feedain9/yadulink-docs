@@ -93,16 +93,16 @@ const config = {
             title: 'Documentation',
             items: [
               {
-                label: 'Démarrage rapide',
-                to: '/demarrage-rapide',
+                label: 'Pour commencer',
+                to: '/pour-commencer/presentation-de-yadulink',
               },
               {
                 label: 'Automatisations',
-                to: '/automatisations/introduction-aux-automatisations',
+                to: '/automatisations/introduction',
               },
               {
                 label: 'IA',
-                to: '/ia/comment-generer-un-commentaire',
+                to: '/ia/introduction',
               },
             ],
           },
