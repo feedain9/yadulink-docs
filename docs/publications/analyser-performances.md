@@ -1,30 +1,21 @@
 ---
 sidebar_position: 3
-title: Analyser les performances
+title: Analyser les performances de mes publications
 ---
 
-# Analyser les performances de vos publications
+# Analyser les performances de mes publications
 
-Mesurez l'impact de votre contenu.
+Une fois que ta publication est postée, tu peux analyser les résultats qu'elle a réalisés sur les premières 24 heures.
 
-## Métriques disponibles
+## Les indicateurs disponibles
 
-### Engagement
+1. **Les impressions réalisées**
+2. **Nombre de likes**
+3. **Nombre de commentaires**
+4. **Nombre de republications**
+5. **Évolution de la performance** sur les 24 heures après la publication
+6. **Lien direct** vers la publication et vers les statistiques à jour
 
-- Likes
-- Commentaires
-- Partages
-
-### Portée
-
-- Impressions
-- Vues uniques
-
-### Croissance
-
-- Nouveaux abonnés
-- Visites de profil
-
-## Interpréter vos données
-
-Identifiez les types de contenu qui performent le mieux et adaptez votre stratégie.
+:::tip
+Le comparatif sur chaque KPI permet de savoir la progression effectuée par rapport au post le plus récent avant celui concerné.
+:::
