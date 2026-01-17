@@ -10,7 +10,7 @@ const config = {
   favicon: 'img/favicon.ico',
 
   // URL de production
-  url: 'https://help.yadulink.com',
+  url: 'https://docs.yadulink.com',
   baseUrl: '/',
 
   // GitHub Pages deployment config
