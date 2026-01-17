@@ -20,6 +20,8 @@ title: Rédiger et programmer une publication
 
 6. Une fois terminé, clique sur **Valider**
 
+![Rédiger une publication](/img/publications/rediger-step1.png)
+
 :::info
 Pour le moment, il n'est possible que d'ajouter un seul média (peu importe le type).
 :::

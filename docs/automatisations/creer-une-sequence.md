@@ -31,6 +31,8 @@ C'est parti, commence par te rendre sur la section **Automatisations** sur Yadul
 
 5. Clique sur **Suivant**
 
+![Création d'une séquence - Étape 1](/img/automatisations/sequence-step1.png)
+
 :::note
 On préfère avoir ta confirmation que tu n'as pas d'outils d'automatisation de prospection tiers connecté à ton LinkedIn afin d'éviter le bannissement de ton compte.
 :::
@@ -43,9 +45,13 @@ Ensuite, selon le type d'étape et parcours choisi, tu dois effectuer certaines 
 
 Configure le type de commentaires que tu veux que Yadulink rédige sous les posts récents des profils de la liste de contacts puis clique sur **Suivant**.
 
+![Configuration des commentaires](/img/automatisations/sequence-step2.png)
+
 ### Note de connexion
 
 Si tu le souhaites, tu peux ajouter une note à ta demande de connexion. Une prévisualisation est ajoutée juste à côté pour que tu puisses voir comment le contact va recevoir ta demande de connexion. Une fois choisi, clique sur **Suivant**.
+
+![Note de connexion](/img/automatisations/sequence-step3.png)
 
 ### Premier message
 
@@ -54,6 +60,8 @@ Tu peux maintenant configurer le premier message que le contact va recevoir. Une
 Tu peux préparer deux versions de ton message (A et B) pour voir lequel des deux aura un meilleur taux de réponses.
 
 Une prévisualisation est ajoutée juste à côté pour que tu puisses voir comment le contact va recevoir ton message. Une fois rédigé, clique sur **Suivant**.
+
+![Premier message](/img/automatisations/sequence-step4.png)
 
 ### Message de relance
 
@@ -68,6 +76,8 @@ La dernière étape est la phase de vérification durant laquelle tu vas vérifi
 Par exemple, tu peux voir qu'un jour après l'étape "Visiter le profil", on passe à "Liker le post", et ainsi de suite...
 
 Une fois que c'est prêt, clique sur **Enregistrer et démarrer la séquence**.
+
+![Vérification et lancement](/img/automatisations/sequence-step5.png)
 
 ## Après le lancement
 

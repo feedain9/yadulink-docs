@@ -23,4 +23,6 @@ Cette fonctionnalité nécessite l'extension Yadulink.
 
 4. Paramètre comme bon te semble et selon ce que tu souhaites puis clique sur le logo de Yadulink en bas à droite du champ de message
 
+![Générer une réponse](/img/ia/reponse-message-step1.png)
+
 5. Yadulink te propose une première réponse, tu peux la modifier, la re-générer, puis la publier

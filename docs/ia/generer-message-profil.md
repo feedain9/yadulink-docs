@@ -21,4 +21,8 @@ Cette fonctionnalité nécessite l'extension Yadulink.
 
 4. Une fois choisi, clique sur **Générer le message**
 
+![Générer le message](/img/ia/message-profil-step1.png)
+
 5. Yadulink te propose un premier message, que tu peux modifier, re-générer ou envoyer en un clic
+
+![Message généré](/img/ia/message-profil-step2.png)
