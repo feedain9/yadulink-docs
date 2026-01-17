@@ -1,0 +1,221 @@
+/**
+ * Yadulink Help Center - Thème Docusaurus personnalisé
+ * Couleurs basées sur le design Yadulink (Emerald/Tailwind)
+ */
+
+/* Variables du thème clair */
+:root {
+  /* Couleurs primaires - Emerald (comme Yadulink) */
+  --ifm-color-primary: #10b981;
+  --ifm-color-primary-dark: #059669;
+  --ifm-color-primary-darker: #047857;
+  --ifm-color-primary-darkest: #065f46;
+  --ifm-color-primary-light: #34d399;
+  --ifm-color-primary-lighter: #6ee7b7;
+  --ifm-color-primary-lightest: #a7f3d0;
+
+  /* Liens */
+  --ifm-link-color: #10b981;
+  --ifm-link-hover-color: #059669;
+
+  /* Code */
+  --docusaurus-highlighted-code-line-bg: rgba(16, 185, 129, 0.1);
+  --ifm-code-background: #f3f4f6;
+
+  /* Navbar */
+  --ifm-navbar-background-color: #ffffff;
+  --ifm-navbar-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+
+  /* Footer */
+  --ifm-footer-background-color: #1f2937;
+
+  /* Typographie */
+  --ifm-font-family-base: 'Inter', system-ui, -apple-system, BlinkMacSystemFont,
+    'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  --ifm-heading-font-family: var(--ifm-font-family-base);
+
+  /* Bordures arrondies */
+  --ifm-global-radius: 0.5rem;
+  --ifm-code-border-radius: 0.375rem;
+}
+
+/* Variables du thème sombre */
+[data-theme='dark'] {
+  --ifm-color-primary: #34d399;
+  --ifm-color-primary-dark: #10b981;
+  --ifm-color-primary-darker: #059669;
+  --ifm-color-primary-darkest: #047857;
+  --ifm-color-primary-light: #6ee7b7;
+  --ifm-color-primary-lighter: #a7f3d0;
+  --ifm-color-primary-lightest: #d1fae5;
+
+  --ifm-link-color: #34d399;
+  --ifm-link-hover-color: #6ee7b7;
+
+  --docusaurus-highlighted-code-line-bg: rgba(52, 211, 153, 0.15);
+  --ifm-code-background: #374151;
+
+  --ifm-navbar-background-color: #111827;
+  --ifm-background-color: #111827;
+  --ifm-footer-background-color: #030712;
+}
+
+/* Navbar personnalisée */
+.navbar {
+  border-bottom: 1px solid var(--ifm-toc-border-color);
+}
+
+.navbar__title {
+  font-weight: 700;
+}
+
+.navbar__link--active {
+  color: var(--ifm-color-primary) !important;
+}
+
+/* Boutons */
+.button--primary {
+  background-color: var(--ifm-color-primary);
+  border-color: var(--ifm-color-primary);
+}
+
+.button--primary:hover {
+  background-color: var(--ifm-color-primary-dark);
+  border-color: var(--ifm-color-primary-dark);
+}
+
+/* Sidebar */
+.menu__link--active:not(.menu__link--sublist) {
+  background-color: rgba(16, 185, 129, 0.1);
+  color: var(--ifm-color-primary-dark);
+}
+
+.menu__link:hover {
+  color: var(--ifm-color-primary);
+}
+
+/* Titres des articles */
+.markdown h1:first-child {
+  font-size: 2.25rem;
+  font-weight: 800;
+  margin-bottom: 1.5rem;
+}
+
+.markdown h2 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-top: 2rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid var(--ifm-toc-border-color);
+}
+
+/* Alertes personnalisées */
+.alert--info {
+  --ifm-alert-background-color: rgba(16, 185, 129, 0.1);
+  --ifm-alert-border-color: var(--ifm-color-primary);
+  --ifm-alert-foreground-color: var(--ifm-color-primary-darkest);
+}
+
+[data-theme='dark'] .alert--info {
+  --ifm-alert-foreground-color: var(--ifm-color-primary-lightest);
+}
+
+/* Admonitions (tips, warnings, etc.) */
+.admonition-tip {
+  border-left-color: var(--ifm-color-primary);
+}
+
+.admonition-tip .admonition-heading {
+  color: var(--ifm-color-primary-dark);
+}
+
+/* Table of Contents */
+.table-of-contents__link--active {
+  color: var(--ifm-color-primary);
+  font-weight: 600;
+}
+
+/* Footer */
+.footer__title {
+  color: #f9fafb;
+  font-weight: 600;
+}
+
+.footer__link-item {
+  color: #9ca3af;
+}
+
+.footer__link-item:hover {
+  color: var(--ifm-color-primary-light);
+}
+
+/* Pagination */
+.pagination-nav__link {
+  border-color: var(--ifm-toc-border-color);
+  border-radius: var(--ifm-global-radius);
+}
+
+.pagination-nav__link:hover {
+  border-color: var(--ifm-color-primary);
+}
+
+/* Barre de recherche */
+.DocSearch-Button {
+  border-radius: var(--ifm-global-radius) !important;
+}
+
+.DocSearch-Button:hover {
+  box-shadow: 0 0 0 2px var(--ifm-color-primary-light);
+}
+
+/* Code blocks */
+.prism-code {
+  border-radius: var(--ifm-code-border-radius);
+}
+
+/* Cards pour les catégories */
+.card {
+  border-radius: var(--ifm-global-radius);
+  transition: box-shadow 0.2s ease, transform 0.2s ease;
+}
+
+.card:hover {
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
+    0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  transform: translateY(-2px);
+}
+
+/* Images avec coins arrondis */
+.markdown img {
+  border-radius: var(--ifm-global-radius);
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+}
+
+/* Videos embeddées */
+.markdown iframe {
+  border-radius: var(--ifm-global-radius);
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+  max-width: 100%;
+}
+
+/* Responsive */
+@media screen and (max-width: 996px) {
+  .markdown h1:first-child {
+    font-size: 1.875rem;
+  }
+}
+
+/* Animation pour les liens */
+.markdown a {
+  transition: color 0.15s ease;
+}
+
+/* Badge "Nouveau" */
+.badge--new {
+  background-color: var(--ifm-color-primary);
+  color: white;
+  font-size: 0.75rem;
+  padding: 0.125rem 0.5rem;
+  border-radius: 9999px;
+  margin-left: 0.5rem;
+}
