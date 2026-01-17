@@ -45,7 +45,7 @@ const config = {
           routeBasePath: '/', // Docs à la racine (pas /docs/)
           sidebarPath: './sidebars.js',
           // Lien "Modifier cette page" vers GitHub
-          editUrl: 'https://github.com/feedain9/yadulink-docs/tree/main/',
+          editUrl: 'https://github.com/feedain9/yadulink-docs/tree/master/',
         },
         blog: false, // Pas de blog
         theme: {
