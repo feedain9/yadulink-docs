@@ -65,7 +65,7 @@ const config = {
         title: 'Yadulink',
         logo: {
           alt: 'Yadulink Logo',
-          src: 'img/logo.svg',
+          src: 'img/logo.webp',
         },
         items: [
           {
