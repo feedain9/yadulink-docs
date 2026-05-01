@@ -15,7 +15,7 @@ const sidebars = {
       collapsed: false,
       items: [
         'pour-commencer/presentation-de-yadulink',
-        'pour-commencer/installer-extension-chrome',
+        'pour-commencer/connecter-linkedin-dans-yadulink',
         'pour-commencer/synchroniser-compte-linkedin',
         'pour-commencer/configurer-ton-ciblage',
         'pour-commencer/configurer-horaires-de-travail',
@@ -32,7 +32,6 @@ const sidebars = {
         'liste-de-contacts/depuis-un-profil',
         'liste-de-contacts/depuis-une-publication',
         'liste-de-contacts/depuis-une-recherche',
-        'liste-de-contacts/depuis-un-evenement',
         'liste-de-contacts/depuis-un-groupe',
         'liste-de-contacts/depuis-un-compte-entreprise',
         'liste-de-contacts/depuis-sales-navigator',

@@ -5,10 +5,15 @@ title: Depuis un profil
 
 # Depuis un profil
 
-1. Ouvre le profil LinkedIn de ton choix
+1. Ouvre le profil LinkedIn que tu veux ajouter.
+2. Copie l'URL du profil.
+3. Dans Yadulink, va dans **Listes** puis ouvre l'importeur.
+4. Colle l'URL du profil.
+5. Choisis une liste existante ou crée une nouvelle liste.
+6. Clique sur **Lancer l'import**.
 
-2. Une fois ouvert, ouvre l'extension Yadulink, crée ou choisis une liste de contacts déjà existante et clique sur **Importer**
+Yadulink enrichit le profil côté backend avant de l'ajouter à ta liste.
 
-![Importer depuis un profil](/img/liste-de-contacts/profil-step1.png)
-
-L'extension Yadulink affiche un bouton d'import directement sur le profil LinkedIn que tu consultes.
+:::tip
+Tu peux aussi ouvrir l'importeur depuis une liste précise : la liste de destination sera pré-sélectionnée.
+:::

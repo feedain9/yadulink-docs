@@ -18,7 +18,11 @@ const config = {
   projectName: 'yadulink-docs', // Nom du repo
 
   onBrokenLinks: 'throw',
-  onBrokenMarkdownLinks: 'warn',
+  markdown: {
+    hooks: {
+      onBrokenMarkdownLinks: 'warn',
+    },
+  },
 
   // Internationalisation (FR par défaut, EN disponible)
   i18n: {
@@ -172,6 +176,7 @@ const config = {
         language: ['fr', 'en'],
         highlightSearchTermsOnTargetPage: true,
         explicitSearchResultPath: true,
+        indexBlog: false,
       },
     ],
   ],

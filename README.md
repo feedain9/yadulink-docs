@@ -2,12 +2,12 @@
 
 Documentation officielle de [Yadulink](https://yadulink.com), l'outil d'automatisation LinkedIn intelligent.
 
-🌐 **Site en production** : [help.yadulink.com](https://help.yadulink.com)
+🌐 **Site en production** : [docs.yadulink.com](https://docs.yadulink.com)
 
 ## Stack technique
 
 - [Docusaurus 3](https://docusaurus.io/) - Générateur de site statique
-- [GitHub Pages](https://pages.github.com/) - Hébergement gratuit
+- [GitHub Pages](https://pages.github.com/) - Hébergement statique
 - [GitHub Actions](https://github.com/features/actions) - CI/CD automatique
 
 ## Développement local
@@ -21,7 +21,7 @@ Documentation officielle de [Yadulink](https://yadulink.com), l'outil d'automati
 
 ```bash
 # Cloner le repo
-git clone https://github.com/yadulink/yadulink-docs.git
+git clone https://github.com/feedain9/yadulink-docs.git
 cd yadulink-docs
 
 # Installer les dépendances
@@ -47,7 +47,7 @@ Les fichiers statiques seront générés dans le dossier `build/`
 yadulink-docs/
 ├── docs/                    # Articles de documentation (Markdown)
 │   ├── index.md             # Page d'accueil
-│   ├── demarrage-rapide.md  # Guide de démarrage
+│   ├── pour-commencer/      # Guides de démarrage
 │   ├── automatisations/     # Docs automatisations
 │   ├── ia/                  # Docs IA
 │   ├── fils-dactus/         # Docs fils d'actu
@@ -80,14 +80,23 @@ Contenu...
 
 3. Commit et push - le déploiement est automatique
 
-## Configuration DNS
+## Déploiement et DNS
 
-Pour que `help.yadulink.com` pointe vers GitHub Pages :
+Le site est publié automatiquement par GitHub Actions vers GitHub Pages à chaque push sur `master`.
+
+Configuration actuelle :
+
+- Repository : `feedain9/yadulink-docs`
+- Domaine GitHub Pages : `docs.yadulink.com`
+- Fichier de domaine : `static/CNAME`
+- Build publié : dossier `build/`
+
+Pour que `docs.yadulink.com` pointe vers GitHub Pages :
 
 1. Dans GitHub repo settings > Pages, configurer le custom domain
 2. Ajouter un CNAME record DNS :
    ```
-   help.yadulink.com -> yadulink.github.io
+   docs.yadulink.com -> feedain9.github.io
    ```
 
 ## Internationalisation

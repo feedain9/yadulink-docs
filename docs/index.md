@@ -43,7 +43,7 @@ Explorez les guides avancés sur les [automatisations](/automatisations/introduc
 |-------|-------------|
 | [Créer une automatisation](/automatisations/creer-une-sequence) | Lancez votre première campagne de prospection |
 | [Générer des commentaires IA](/ia/generer-commentaire) | Utilisez l'IA pour engager avec votre réseau |
-| [Importer des leads](/liste-de-contacts/depuis-un-fichier) | Ajoutez vos prospects depuis Sales Navigator |
+| [Importer des leads](/liste-de-contacts/introduction) | Ajoutez vos prospects depuis LinkedIn ou Sales Navigator |
 | [Connecter LinkedIn](/pour-commencer/synchroniser-compte-linkedin) | Liez votre compte LinkedIn à Yadulink |
 
 ## Besoin d'aide ?

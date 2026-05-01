@@ -5,33 +5,22 @@ title: Générer un commentaire
 
 # Générer un commentaire
 
-:::info
-Cette fonctionnalité nécessite l'extension Yadulink.
-:::
+La génération de commentaires se fait depuis Yadulink, dans les feeds et les automatisations. Elle n'utilise plus l'extension Chrome.
 
-Dès que tu génères ton premier commentaire, Yadulink récupère tes anciens commentaires les plus récents pour te proposer des commentaires qui te ressemblent.
+Dès que tu génères et ajustes tes premiers commentaires, Yadulink apprend ton style pour proposer des commentaires plus proches de ta manière d'écrire.
 
-## Comment générer un commentaire
+## Depuis un feed
 
-1. Rends-toi sur ton fil d'actualité par défaut de LinkedIn
+1. Ouvre **Yadulink > Fils d'actus**.
+2. Ouvre le feed qui contient les profils à suivre.
+3. Sélectionne une publication à commenter.
+4. Règle les paramètres de génération : ton, longueur et objectif.
+5. Génère le commentaire, ajuste-le si besoin, puis publie-le.
 
-2. Repère une publication que tu souhaites commenter et clique sur **Commenter**
+## Depuis une automatisation
 
-![Commenter une publication](/img/ia/comment-step1.png)
-
-3. Une fois cliqué, Yadulink apparaît avec 3 paramètres :
-   - La formule de politesse (tutoiement / vouvoiement)
-   - La longueur du commentaire
-   - Le but du commentaire
-
-4. Paramètre comme bon te semble et selon ce que tu souhaites puis clique sur le logo de Yadulink en bas à droite du champ de commentaire
-
-![Paramètres du commentaire](/img/ia/comment-step2.png)
-
-5. Yadulink te propose un premier commentaire, tu peux le modifier, le re-générer, puis le publier
-
-![Commentaire généré](/img/ia/comment-step3.png)
+Dans une séquence, ajoute une étape **Commenter un post** ou **Liker et commenter un post**. Yadulink te demandera les paramètres nécessaires pour générer un commentaire cohérent avec ton style.
 
 :::tip
-Plus tu publieras de commentaires, plus Yadulink sera en capacité de générer des commentaires qui te ressemblent !
+Plus tu utilises Yadulink ou écris toi-même tes commentaires, plus l'IA apprend ton style.
 :::

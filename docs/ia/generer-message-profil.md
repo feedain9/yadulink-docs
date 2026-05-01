@@ -5,24 +5,20 @@ title: Générer un premier message via le profil
 
 # Générer un premier message via le profil
 
-:::info
-Cette fonctionnalité nécessite l'extension Yadulink.
-:::
+Tu peux générer un premier message depuis Yadulink après avoir ajouté un profil dans une liste de contacts ou ouvert une conversation dans l'inbox.
 
-## Comment générer un premier message
+## Depuis une liste de contacts
 
-1. Rends-toi sur le profil LinkedIn de ton choix
+1. Importe ou ouvre le profil dans **Yadulink > Listes**.
+2. Vérifie les informations du contact.
+3. Lance la génération de message depuis la fiche ou le parcours de prospection.
+4. Choisis l'objectif du message : engager une conversation, parler de ton offre, partager une ressource, etc.
+5. Relis et ajuste le message avant envoi.
 
-2. Ouvre l'extension Yadulink et rends-toi dans l'onglet **Messages**
+## Depuis l'inbox
 
-3. Choisis le type de premier message à générer :
-   - Engager une conversation ?
-   - Parler de mon offre ?
+1. Ouvre **Yadulink > Inbox**.
+2. Sélectionne ou crée une conversation.
+3. Utilise l'assistance IA pour rédiger le premier message.
 
-4. Une fois choisi, clique sur **Générer le message**
-
-![Générer le message](/img/ia/message-profil-step1.png)
-
-5. Yadulink te propose un premier message, que tu peux modifier, re-générer ou envoyer en un clic
-
-![Message généré](/img/ia/message-profil-step2.png)
+La qualité dépend des informations disponibles sur le profil et des paramètres de ton IA de messages.

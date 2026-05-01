@@ -5,22 +5,17 @@ title: Utiliser un template de message
 
 # Utiliser un template de message
 
-:::info
-Cette fonctionnalité nécessite l'extension Yadulink.
-:::
+Les templates de messages s'utilisent directement dans Yadulink, notamment dans l'inbox et les parcours de prospection.
 
 ## Comment utiliser un template
 
-1. Ouvre ta messagerie LinkedIn
+1. Ouvre **Yadulink > Inbox** ou une liste de contacts.
+2. Choisis la conversation ou le contact concerné.
+3. Sélectionne le template à utiliser.
+4. Vérifie les variables dynamiques comme `{{first_name}}`.
+5. Ajuste le texte si nécessaire.
+6. Envoie le message depuis Yadulink.
 
-2. Choisis la conversation que tu souhaites
-
-3. Yadulink apparaît avec quatre options, mais celle qui va nous intéresser ici est le troisième paramètre **Action** qui contient le ou les templates précédemment créés
-
-4. Choisis le template que tu souhaites utiliser et clique sur le logo Yadulink en bas à droite du champ de message
-
-5. Yadulink te copie ton template en prenant soin d'adapter le message au contact avec son prénom (si tu as utilisé la variable `{{first_name}}`)
-
-6. Une fois que le message est prêt, tu peux l'envoyer
-
-![Utilisation d'un template](/img/ia/utiliser-template-step1.png)
+:::tip
+Garde des templates courts et faciles à personnaliser. Un template doit accélérer l'écriture, pas remplacer la relecture.
+:::

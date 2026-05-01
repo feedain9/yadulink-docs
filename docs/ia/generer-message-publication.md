@@ -5,26 +5,14 @@ title: Générer un premier message via une publication
 
 # Générer un premier message via une publication
 
-:::info
-Cette fonctionnalité nécessite l'extension Yadulink.
-:::
+Tu peux utiliser une publication LinkedIn comme contexte pour préparer un message personnalisé dans Yadulink.
 
-## Comment générer un premier message
+## Comment faire
 
-1. Rends-toi sur le profil LinkedIn de ton choix qui a un post assez récent
+1. Copie l'URL de la publication LinkedIn.
+2. Importe les profils qui ont interagi avec cette publication depuis **Yadulink > Listes**.
+3. Ouvre le contact ciblé ou sa conversation dans l'inbox.
+4. Utilise l'assistance IA pour générer un message en t'appuyant sur le contexte de la publication.
+5. Relis, personnalise et envoie le message.
 
-2. Retrouve et ouvre un de ses derniers posts
-
-3. Ouvre l'extension Yadulink et rends-toi dans l'onglet **Messages**
-
-![Extension Yadulink sur une publication](/img/ia/message-publication-step1.png)
-
-4. Choisis le type de premier message à générer :
-   - Engager une conversation ?
-   - Parler de mon offre ?
-
-5. Une fois choisi, clique sur **Générer le message**
-
-6. Yadulink te propose un premier message, que tu peux modifier, re-générer ou envoyer en un clic
-
-![Message généré](/img/ia/message-publication-step2.png)
+Cette approche fonctionne bien pour rebondir sur un intérêt réel : like, commentaire ou réaction à un post.

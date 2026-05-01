@@ -5,32 +5,26 @@ title: Depuis Sales Navigator
 
 # Depuis Sales Navigator
 
-Fonctionne avec les prospects et les comptes, ainsi qu'avec les listes créées sur Sales Navigator.
+L'importeur Yadulink prend en charge les recherches de prospects, les recherches de comptes et les listes Sales Navigator.
 
 :::info
-Pour faire des imports depuis Sales Navigator, cela nécessite un abonnement à Sales Navigator. Vérifie que la fonctionnalité est bien synchronisée sur ton compte Yadulink.
+Tu dois avoir accès à Sales Navigator sur ton compte LinkedIn et ton compte LinkedIn doit être synchronisé dans Yadulink.
 :::
 
-## Pour importer des contacts depuis Sales Navigator
+## Importer depuis Sales Navigator
 
-1. Ouvre la recherche de prospect avec tous les filtres sur Sales Navigator
-
-![Recherche Sales Navigator](/img/liste-de-contacts/salesnav-step1.png)
-
-2. Effectue ta recherche, tire parti des filtres présents pour rendre les résultats le plus précis possible et ouvre l'extension Yadulink
-
-![Ouvrir l'extension Yadulink](/img/liste-de-contacts/salesnav-step2.png)
-
-3. Une fois ouvert, crée une liste de contacts ou choisis une liste de contacts existante et précise le nombre de contacts que tu veux importer de cette recherche (avec un maximum de 2500)
-
-![Importer les contacts](/img/liste-de-contacts/salesnav-step3.png)
+1. Ouvre Sales Navigator et prépare ta recherche avec les filtres voulus.
+2. Copie l'URL de la recherche ou de la liste Sales Navigator.
+3. Dans Yadulink, va dans **Listes** puis ouvre l'importeur.
+4. Colle l'URL Sales Navigator.
+5. Choisis une liste de destination.
+6. Indique le nombre de profils à importer.
+7. Clique sur **Lancer l'import**.
 
 :::info
-La limite des 2500 contacts est fixée par LinkedIn, on ne peut pas en récupérer plus. La seule solution est d'affiner au maximum ta recherche avec les filtres pour avoir quelque chose de bien ciblé.
+Sur Sales Navigator, l'importeur accepte un volume entre 10 et 2500 profils. Pour aller plus loin, affine ta recherche en plusieurs segments.
 :::
-
-4. Une fois la liste de contacts choisie, et le nombre de contacts saisi, clique sur **Importer**
 
 :::note
-L'import peut durer plusieurs minutes selon le nombre de contacts à importer.
+L'import peut durer plusieurs minutes selon le nombre de profils demandés.
 :::

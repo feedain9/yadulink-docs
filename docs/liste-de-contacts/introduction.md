@@ -5,15 +5,19 @@ title: Introduction aux listes de contacts
 
 # Introduction aux listes de contacts
 
-Les listes de contacts sont au cœur de ta stratégie de prospection : elles te permettent de centraliser, segmenter et réutiliser tes prospects de façon optimale dans les séquences de prospection.
+Les listes de contacts centralisent tes prospects LinkedIn pour les segmenter, les enrichir et les réutiliser dans tes séquences de prospection.
 
-Tu peux importer des contacts depuis diverses sources sur LinkedIn, les voici :
+Depuis la migration dans l'application, les imports LinkedIn se lancent depuis **Yadulink > Listes** avec l'importeur intégré. Tu colles l'URL LinkedIn ou Sales Navigator, Yadulink détecte la source et adapte les champs à remplir.
 
-1. [Depuis un profil](./depuis-un-profil)
-2. [Depuis une publication](./depuis-une-publication)
-3. [Depuis une recherche](./depuis-une-recherche)
-4. [Depuis un événement](./depuis-un-evenement)
-5. [Depuis un groupe](./depuis-un-groupe)
-6. [Depuis un compte entreprise](./depuis-un-compte-entreprise)
-7. [Depuis Sales Navigator](./depuis-sales-navigator)
-8. [Depuis tes propres relations](./depuis-ton-reseau)
+Tu peux importer des contacts depuis :
+
+1. [Un fichier CSV](./depuis-un-fichier)
+2. [Un profil LinkedIn](./depuis-un-profil)
+3. [Une publication](./depuis-une-publication)
+4. [Une recherche LinkedIn](./depuis-une-recherche)
+5. [Un groupe LinkedIn](./depuis-un-groupe)
+6. [Une page entreprise](./depuis-un-compte-entreprise)
+7. [Sales Navigator](./depuis-sales-navigator)
+8. [Tes propres relations](./depuis-ton-reseau)
+
+L'import depuis les participants d'un événement LinkedIn n'est pas disponible dans le nouvel importeur SaaS. Utilise plutôt une recherche LinkedIn, un groupe ou une publication liée à l'événement.
