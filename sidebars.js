@@ -98,6 +98,7 @@ const sidebars = {
       collapsed: true,
       items: [
         'integrations/connecter-claude-avec-yadulink',
+        'integrations/connecter-chatgpt-avec-yadulink',
       ],
     },
     {
