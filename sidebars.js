@@ -93,6 +93,15 @@ const sidebars = {
     },
     {
       type: 'category',
+      label: 'Intégrations',
+      collapsible: true,
+      collapsed: true,
+      items: [
+        'integrations/connecter-claude-avec-yadulink',
+      ],
+    },
+    {
+      type: 'category',
       label: 'Cas d\'usage',
       collapsible: true,
       collapsed: true,
