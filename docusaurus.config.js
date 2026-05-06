@@ -24,6 +24,16 @@ const config = {
       onBrokenMarkdownLinks: 'warn',
     },
   },
+  headTags: [
+    {
+      tagName: 'script',
+      attributes: {
+        type: 'text/javascript',
+      },
+      innerHTML:
+        'window.$crisp=[];window.CRISP_WEBSITE_ID="95a38c51-906d-492c-93df-f147bdbdd569";(function(){var d=document;var s=d.createElement("script");s.src="https://client.crisp.chat/l.js";s.async=1;d.getElementsByTagName("head")[0].appendChild(s);})();',
+    },
+  ],
 
   // Internationalisation (FR par défaut, EN disponible)
   i18n: {
