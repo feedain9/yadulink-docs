@@ -13,7 +13,7 @@ Une séquence de prospection est une suite d'actions automatisées qui imite au 
 
 **Exemple** : Martine est assistante virtuelle pour les artisans du BTP, elle va trouver des artisans du BTP et les contacter à grande échelle pour leur parler de ses services.
 
-Sauf que pour paraître naturel et humain, il ne faut pas directement attaquer en envoyant un message 😅
+Sauf que pour paraître naturel et humain, il ne faut pas directement attaquer en envoyant un message.
 
 À la place, on va utiliser l'automatisation pour surveiller les dernières publications des contacts pour aller liker (et commenter) pour montrer notre intérêt, puis on va visiter le profil pour être sûr que le contact nous a vu à différents endroits (sous son post, et dans ses vues de profil). On va l'ajouter dans notre réseau et lui envoyer un message.
 

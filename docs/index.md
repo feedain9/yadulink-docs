@@ -19,25 +19,25 @@ Bienvenue sur la documentation officielle de **Yadulink**, votre outil d'automat
 
 Yadulink est une plateforme complète pour automatiser et optimiser votre prospection LinkedIn :
 
-- 🚀 **Automatisations** - Créez des séquences de prospection multi-étapes
-- 💬 **Messages IA** - Générez des messages personnalisés avec l'intelligence artificielle
-- 📊 **Fils d'actu** - Suivez et interagissez avec les publications de vos prospects
-- 📝 **Publications** - Programmez et analysez vos posts LinkedIn
-- 📋 **Listes** - Gérez et segmentez vos leads efficacement
+- **Automatisations** - Créez des séquences de prospection multi-étapes
+- **Messages IA** - Générez des messages personnalisés avec l'intelligence artificielle
+- **Fils d'actu** - Suivez et interagissez avec les publications de vos prospects
+- **Publications** - Programmez et analysez vos posts LinkedIn
+- **Listes** - Gérez et segmentez vos leads efficacement
 
 ## Par où commencer ?
 
 <div className="row">
 <div className="col col--6">
 
-### 🎯 Nouveau sur Yadulink ?
+### Nouveau sur Yadulink ?
 
 Consultez notre [guide de démarrage](/pour-commencer/presentation-de-yadulink) pour configurer votre compte en quelques minutes.
 
 </div>
 <div className="col col--6">
 
-### 🔧 Déjà utilisateur ?
+### Déjà utilisateur ?
 
 Explorez les guides avancés sur les [automatisations](/automatisations/introduction) et l'[IA](/ia/introduction).
 
@@ -55,9 +55,9 @@ Explorez les guides avancés sur les [automatisations](/automatisations/introduc
 
 ## Besoin d'aide ?
 
-- 💬 **Chat en direct** - Disponible dans l'application Yadulink
-- 📧 **Email** - [support@yadulink.com](mailto:support@yadulink.com)
-- 🐛 **Signaler un bug** - Via le chat ou par email
+- **Chat en direct** - Disponible dans l'application Yadulink
+- **Email** - [support@yadulink.com](mailto:support@yadulink.com)
+- **Signaler un bug** - Via le chat ou par email
 
 ---
 

@@ -174,7 +174,7 @@ const config = {
       // Barre d'annonces (optionnel)
       // announcementBar: {
       //   id: 'new_feature',
-      //   content: '🎉 Nouvelle fonctionnalité : Découvrez les filtres IA !',
+      //   content: 'Nouvelle fonctionnalité : Découvrez les filtres IA !',
       //   backgroundColor: '#10b981',
       //   textColor: '#ffffff',
       //   isCloseable: true,
