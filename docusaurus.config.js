@@ -146,7 +146,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Yadulink. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Yadulink.`,
       },
 
       prism: {
