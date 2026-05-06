@@ -1,17 +1,18 @@
 // @ts-check
-// Docusaurus Configuration pour Yadulink Help Center
+// Docusaurus Configuration pour la documentation Yadulink
 
 import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Yadulink Help Center',
-  tagline: 'Automatisez votre prospection LinkedIn',
+  title: 'Documentation Yadulink',
+  tagline: 'Guides officiels pour utiliser Yadulink et automatiser votre prospection LinkedIn',
   favicon: 'img/favicon.ico',
 
   // URL de production
   url: 'https://docs.yadulink.com',
   baseUrl: '/',
+  trailingSlash: true,
 
   // GitHub Pages deployment config
   organizationName: 'feedain9', // Votre org/user GitHub
@@ -52,6 +53,10 @@ const config = {
           editUrl: 'https://github.com/feedain9/yadulink-docs/tree/master/',
         },
         blog: false, // Pas de blog
+        sitemap: {
+          lastmod: 'date',
+          ignorePatterns: ['/search', '/search/**', '/en/search', '/en/search/**'],
+        },
         theme: {
           customCss: './src/css/custom.css',
         },

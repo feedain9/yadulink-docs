@@ -2,9 +2,16 @@
 slug: /
 sidebar_position: 1
 title: Bienvenue
+description: Documentation Yadulink officielle pour connecter LinkedIn, importer des leads, automatiser la prospection, utiliser l'IA et intégrer Claude ou ChatGPT.
+keywords:
+  - documentation Yadulink
+  - doc Yadulink
+  - aide Yadulink
+  - guide Yadulink
+  - prospection LinkedIn
 ---
 
-# Bienvenue sur le Centre d'aide Yadulink
+# Documentation Yadulink
 
 Bienvenue sur la documentation officielle de **Yadulink**, votre outil d'automatisation LinkedIn intelligent.
 

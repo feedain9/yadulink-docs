@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+Disallow: /search/
+Disallow: /en/search/
+
+Sitemap: https://docs.yadulink.com/sitemap.xml
+Sitemap: https://docs.yadulink.com/en/sitemap.xml
