@@ -2,7 +2,7 @@
 slug: /
 sidebar_position: 1
 title: Bienvenue
-description: Documentation Yadulink officielle pour connecter LinkedIn, importer des leads, automatiser la prospection, utiliser l'IA et intégrer Claude ou ChatGPT.
+description: Documentation Yadulink officielle pour connecter LinkedIn, importer des leads, automatiser la prospection, utiliser l'IA, connecter n8n et utiliser l'API Yadulink.
 keywords:
   - documentation Yadulink
   - doc Yadulink
@@ -52,6 +52,7 @@ Explorez les guides avancés sur les [automatisations](/automatisations/introduc
 | [Générer des commentaires IA](/ia/generer-commentaire) | Utilisez l'IA pour engager avec votre réseau |
 | [Importer des leads](/liste-de-contacts/introduction) | Ajoutez vos prospects depuis LinkedIn ou Sales Navigator |
 | [Connecter LinkedIn](/pour-commencer/synchroniser-compte-linkedin) | Liez votre compte LinkedIn à Yadulink |
+| [Utiliser l'API Yadulink](/api/introduction/) | Connectez Yadulink à vos outils, n8n ou votre CRM |
 
 ## Besoin d'aide ?
 

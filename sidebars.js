@@ -103,6 +103,22 @@ const sidebars = {
     },
     {
       type: 'category',
+      label: 'API Yadulink',
+      collapsible: true,
+      collapsed: true,
+      items: [
+        'api/introduction',
+        'api/authentification-et-cles-api',
+        'api/credits-api',
+        'api/endpoints',
+        'api/actions-et-jobs',
+        'api/webhooks',
+        'api/n8n',
+        'api/erreurs-et-depannage',
+      ],
+    },
+    {
+      type: 'category',
       label: 'Cas d\'usage',
       collapsible: true,
       collapsed: true,
