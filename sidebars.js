@@ -73,7 +73,6 @@ const sidebars = {
         'ia/introduction',
         'ia/generer-commentaire',
         'ia/generer-reponse-message',
-        'ia/parametrer-ia-messages',
         'ia/generer-message-profil',
         'ia/generer-message-publication',
         'ia/templates-introduction',
