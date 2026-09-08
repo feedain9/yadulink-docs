@@ -15,7 +15,7 @@ L'accès API repose sur trois règles simples :
 - Les actions LinkedIn sensibles passent par des jobs asynchrones avec des limites de sécurité.
 
 :::info
-L'accès API est ouvert progressivement. Si les options API n'apparaissent pas encore dans votre compte, contactez l'équipe Yadulink depuis le chat de l'application.
+L'API est disponible avec un abonnement Yadulink actif. Elle se pilote depuis **Integrations > API**, où vous trouvez vos clés, votre solde de crédits et votre consommation.
 :::
 
 ## URL de base
@@ -115,20 +115,18 @@ Réponse typique :
 {
   "success": true,
   "data": {
-    "user": {
-      "id": 123,
-      "email": "user@example.com"
-    },
-    "api_key": {
-      "id": 456,
-      "name": "n8n production",
-      "key_type": "n8n",
-      "scopes": ["account:read", "credits:read"]
+    "id": 123,
+    "email": "user@example.com",
+    "first_name": "Ada",
+    "last_name": "Lovelace",
+    "api_access": {
+      "eligible": true
     }
-  },
-  "meta": {}
+  }
 }
 ```
+
+`GET /me` ne consomme aucun crédit : c'est le test à lancer en premier quand une intégration ne répond plus.
 
 ## Documentation machine-readable
 
@@ -141,6 +139,10 @@ Deux endpoints sont utiles pour les outils avancés :
 
 Le schéma OpenAPI sert notamment avec le node HTTP Request de n8n, des outils de test API ou des générateurs de clients.
 
+La [**référence OpenAPI**](/api/reference/) de cette documentation est générée depuis ce schéma : c'est la liste qui fait foi pour les paramètres, les corps de requête et les codes de réponse.
+
+Chaque réponse porte un en-tête `X-Request-ID`. Conservez-le dans vos logs : c'est l'identifiant que le support utilise pour retrouver un appel précis. Si vous envoyez le vôtre, Yadulink le réutilise.
+
 ## Guides à lire ensuite
 
 - [Authentification et clés API](/api/authentification-et-cles-api/)
@@ -148,4 +150,6 @@ Le schéma OpenAPI sert notamment avec le node HTTP Request de n8n, des outils d
 - [Référence des endpoints](/api/endpoints/)
 - [Actions et jobs](/api/actions-et-jobs/)
 - [Webhooks](/api/webhooks/)
+- [Limites et quotas](/api/limites-et-quotas/)
 - [Utiliser Yadulink dans n8n](/api/n8n/)
+- [Référence OpenAPI générée](/api/reference/)

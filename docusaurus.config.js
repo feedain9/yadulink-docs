@@ -53,6 +53,30 @@ const config = {
 
   presets: [
     [
+      // La référence des endpoints est générée depuis le schéma OpenAPI plutôt
+      // que réécrite à la main : c'est le seul moyen qu'elle ne dérive pas du
+      // code. Le schéma est commité dans openapi/ (npm run refresh:openapi)
+      // pour qu'un build ne dépende pas de la disponibilité de l'application.
+      'redocusaurus',
+      {
+        specs: [
+          {
+            id: 'yadulink-v1',
+            spec: 'openapi/yadulink-v1.json',
+            route: '/api/reference/',
+          },
+        ],
+        theme: {
+          primaryColor: '#047857',
+          options: {
+            hideDownloadButton: false,
+            expandResponses: '200,202',
+            requiredPropsFirst: true,
+          },
+        },
+      },
+    ],
+    [
       'classic',
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({

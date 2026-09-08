@@ -16,13 +16,16 @@ Une clé API ne remplace pas l'abonnement Yadulink. Si l'abonnement n'est plus a
 
 ## Créer une clé API
 
-Quand l'accès API est disponible sur votre compte :
+1. Ouvrez **Yadulink > Integrations > API**, onglet **Clés API**.
+2. Cliquez sur **Nouvelle clé**.
+3. Choisissez un niveau d'accès. **Lecture seule** est proposé par défaut ; **Accès API complet** ouvre toutes les permissions REST ; **Permissions choisies** vous laisse cocher exactement ce dont votre application a besoin.
+4. Nommez la clé d'après l'outil qui l'utilisera, et laissez une expiration.
+5. Copiez la clé complète immédiatement. Yadulink affiche aussi une commande `curl` prête à coller pour vérifier la connexion.
+6. Stockez-la dans votre outil serveur, votre credential n8n ou votre gestionnaire de secrets.
 
-1. Ouvrez **Yadulink > Integrations**.
-2. Ouvrez la zone liée à l'API ou à n8n.
-3. Créez une clé avec le preset adapté.
-4. Copiez la clé complète immédiatement.
-5. Stockez-la dans votre outil serveur, votre credential n8n ou votre gestionnaire de secrets.
+Pour n8n, passez plutôt par **Integrations > n8n** : la page crée une clé avec le preset `n8n_full` et la Base URL déjà renseignée.
+
+Une clé existante se renomme et se re-scope depuis **Gérer** sans changer sa valeur. **Renouveler la valeur** génère un nouveau secret et invalide l'ancien immédiatement.
 
 :::warning
 La clé complète n'est affichée qu'une seule fois. Yadulink ne stocke pas la clé en clair.
