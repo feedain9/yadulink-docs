@@ -1,0 +1,8 @@
+{
+  "label": "Yadulink API",
+  "position": 9,
+  "link": {
+    "type": "generated-index",
+    "description": "Guides for using the Yadulink API: keys, credits, jobs, webhooks and n8n."
+  }
+}
