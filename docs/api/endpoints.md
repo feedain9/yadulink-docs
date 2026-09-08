@@ -12,6 +12,10 @@ Tous les endpoints ci-dessous utilisent l'URL de base :
 https://app.yadulink.com/api/v1
 ```
 
+:::tip
+Cette page est un aperçu par domaine, pratique pour choisir un endpoint. Pour les paramètres exacts, les corps de requête et les codes de réponse, ouvrez la [**référence OpenAPI**](/api/reference/) : elle est générée depuis le schéma servi par l'API, donc toujours à jour.
+:::
+
 ## Conventions
 
 Les réponses suivent toujours la même structure :

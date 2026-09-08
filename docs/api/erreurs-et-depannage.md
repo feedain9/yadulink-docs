@@ -1,5 +1,5 @@
 ---
-sidebar_position: 8
+sidebar_position: 9
 title: Erreurs et dépannage API
 description: Comprendre les erreurs API Yadulink, les codes les plus fréquents et les actions à prendre pour corriger un workflow ou une intégration.
 ---
@@ -20,6 +20,8 @@ Toutes les erreurs API Yadulink utilisent le même format :
 ```
 
 Utilisez `error.code` dans vos workflows ou dans votre code. Le texte `message` peut évoluer pour être plus clair.
+
+Chaque réponse porte un en-tête `X-Request-ID`. Conservez-le : c'est l'identifiant qui permet au support de retrouver l'appel exact dans le journal de votre clé. Si vous envoyez votre propre `X-Request-ID`, Yadulink le réutilise au lieu d'en générer un.
 
 ## Codes HTTP
 
@@ -49,7 +51,7 @@ Utilisez `error.code` dans vos workflows ou dans votre code. Le texte `message` 
 | `public_api_suspended` | Accès API suspendu | Contacter l'équipe Yadulink |
 | `unknown_action` | Opération d'action inconnue | Lire `GET /actions` |
 | `unknown_operation` | Opération de crédit inconnue | Lire `POST /credits/quote` avec une opération valide |
-| `rate_limited` | Trop de requêtes | Ajouter des délais ou réduire la concurrence |
+| `rate_limit_exceeded` | Plus de 100 requêtes sur la minute en cours | Respecter `Retry-After`, espacer les appels |
 
 ## Diagnostiquer une clé API
 
@@ -128,6 +130,7 @@ curl https://app.yadulink.com/api/v1/webhooks/456/test \
 
 Pour accélérer le diagnostic, envoyez :
 
+- le `X-Request-ID` de la réponse ;
 - l'endpoint appelé ;
 - la méthode HTTP ;
 - l'heure approximative ;

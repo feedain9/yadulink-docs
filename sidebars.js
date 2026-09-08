@@ -97,6 +97,7 @@ const sidebars = {
       collapsible: true,
       collapsed: true,
       items: [
+        'integrations/mcp',
         'integrations/connecter-claude-avec-yadulink',
         'integrations/connecter-chatgpt-avec-yadulink',
       ],
@@ -114,7 +115,13 @@ const sidebars = {
         'api/actions-et-jobs',
         'api/webhooks',
         'api/n8n',
+        'api/limites-et-quotas',
         'api/erreurs-et-depannage',
+        {
+          type: 'link',
+          label: 'Référence OpenAPI',
+          href: '/api/reference/',
+        },
       ],
     },
     {
