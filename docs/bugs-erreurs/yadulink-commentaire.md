@@ -1,14 +1,18 @@
 ---
 sidebar_position: 1
-title: Yadulink n'apparaît pas dans la section commentaire ?
+title: Où générer un commentaire avec Yadulink ?
 ---
 
-# Yadulink n'apparaît pas dans la section commentaire ?
+# Où générer un commentaire avec Yadulink ?
 
-1. Clique sur les trois points d'une publication dans ton fil d'actualité, copie le lien vers le post, puis clique pour voir le post
+La génération se fait dans l’application **Yadulink**, depuis **Fils d’actus**.
 
-![Copier le lien du post](/img/bugs-erreurs/commentaire-step1.png)
+1. Ouvre **Yadulink > Fils d’actus** et choisis ton feed.
+2. Sélectionne la publication à commenter.
+3. Génère ton commentaire, relis-le et ajuste-le avant de le publier.
 
-2. Une fois le post ouvert, rafraîchis la page en utilisant `CTRL + R` ou `CMD + R` (ou le bouton de ton navigateur) et tu devrais maintenant voir Yadulink pour générer un commentaire
+Le bouton n’est plus intégré à la section commentaires du site LinkedIn. Rafraîchir une publication sur LinkedIn ne le fera donc pas apparaître.
 
-![Yadulink visible](/img/bugs-erreurs/commentaire-step2.png)
+Si la génération échoue dans Yadulink, indique au support le feed concerné, le lien de la publication et le message d’erreur affiché. Une capture du blocage aide aussi au diagnostic.
+
+Consulte [Générer un commentaire](../ia/generer-commentaire.md) pour le parcours complet.
