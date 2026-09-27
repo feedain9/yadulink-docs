@@ -7,10 +7,6 @@ title: Créer un fil d'actu
 
 Les fils d'actus se créent et se consultent directement dans Yadulink.
 
-:::warning
-Dû à des contraintes techniques liées à LinkedIn, tu ne peux pas ajouter un profil entreprise à un fil d'actu.
-:::
-
 ## Créer un fil d'actu
 
 1. Ouvre **Yadulink > Fils d'actus**.
@@ -21,8 +17,12 @@ Dû à des contraintes techniques liées à LinkedIn, tu ne peux pas ajouter un 
 
 ## Ajouter des profils
 
-Tu peux ajouter des profils depuis une liste de contacts ou depuis les actions disponibles dans Yadulink. Si tu pars d'un profil LinkedIn, copie son URL puis ajoute-le via l'application.
+Ouvre la gestion des membres de ton feed personnalisé. Dans le champ de recherche, saisis un **nom**, un **intitulé**, un **identifiant de profil** ou une **URL de profil LinkedIn**, puis sélectionne le bon résultat et ajoute-le.
+
+La recherche propose les contacts locaux correspondants et peut compléter les résultats via LinkedIn lorsque ton compte est connecté. En cas d’homonymie, une URL permet de cibler plus précisément le profil.
+
+Tu peux également ajouter des profils depuis une liste de contacts. Les membres du feed LinkedIn par défaut ne sont pas modifiables.
 
 :::info
-Un fil d'actu est limité à 28 contacts. Au-delà, LinkedIn peut rendre le feed instable.
+Un feed personnalisé accepte jusqu’à **100 membres**.
 :::
